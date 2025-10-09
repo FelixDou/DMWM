@@ -1,7 +1,9 @@
 # DMWM
-This is a repository for the paper "DMWM: Dual-Mind World Model with Long-Term Imagination" accepted by NeurIPS 2025
+This is a repository for the paper "DMWM: Dual-Mind World Model with Long-Term Imagination" accepted by NeurIPS 2025.
 
-!["The proposed dual-mind world model"](Figure/pipline.png "The proposed dual-mind world model")
+<p align="center">
+  <img src="Figure/Pipline.png" alt="The proposed dual-mind world model" width="60%">
+</p>
 
 ## :memo: Installation
 You can create and activate the environment as follows:
