@@ -64,7 +64,7 @@ If any parts of our paper and code help your research, please consider citing us
 }
 ```
 
-## :rocket: Some Test Results
+## :thumbsup: Some Test Results
 High Data Efficiency and Robust Planning Over Extended Horizon Size:
 !["Data Efficiency"](Figure/ES4.png)
 !["Data Efficiency"](Figure/EPS4.png)
