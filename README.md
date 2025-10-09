@@ -11,6 +11,10 @@ conda create -n dmwm python==3.7
 conda activate dmwm
 pip install -r requirements.txt
 ```
+Suggested GPU:
+All experiments in the paper were conducted on a single NVIDIA RTX 3090 GPU. We also tried the NVIDIA RTX 3080 GPU, which can also work.
+
+Training Env: [Google DeepMind Infrastructure for Physics-Based Simulation](https://github.com/google-deepmind/dm_control#rendering).
 
 ## :rocket: Training
 To train the model(s) in the paper, run this command:
@@ -59,3 +63,8 @@ If any parts of our paper and code help your research, please consider citing us
 ```
 
 ## :rocket: Some Test Results
+High Data Efficiency and Robust Planning Over Extended Horizon Size:
+!["Data Efficiency"](Figure/ES4.png)
+!["Data Efficiency"](Figure/EPS4.png)
+!["Robust Planning Over Extended Horizon Size"](Figure/HS8.png)
+
