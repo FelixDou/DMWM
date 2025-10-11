@@ -1,5 +1,5 @@
 # DMWM
-This is a repository for the paper "DMWM: Dual-Mind World Model with Long-Term Imagination" accepted by NeurIPS 2025.
+This is an official repository for the paper "DMWM: Dual-Mind World Model with Long-Term Imagination" accepted by NeurIPS 2025.
 
 <p align="center">
   <img src="Figure/Pipline.png" alt="The proposed dual-mind world model" width="60%">
