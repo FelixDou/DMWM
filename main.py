@@ -22,6 +22,13 @@ parser.add_argument('--id', type=str, default='default', help='Experiment ID')
 parser.add_argument('--seed', type=int, default=1, metavar='S', help='Random seed')
 parser.add_argument('--disable-cuda', action='store_true', help='Disable CUDA')
 parser.add_argument(
+    '--algo',
+    type=str,
+    default='dreamer',
+    choices=('dreamer',),
+    help='Training algorithm; this repository currently supports Dreamer only',
+)
+parser.add_argument(
     '--env',
     type=str,
     default='Pendulum-v0',

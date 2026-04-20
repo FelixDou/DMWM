@@ -22,20 +22,20 @@ Training Env: [Google DeepMind Infrastructure for Physics-Based Simulation](http
 To train the model(s) in the paper, run this command:
 Taking the "walker-walk" task as an example:
 ```bash
-python main.py --algo dreamer --env walker-walk --action-repeat 2 --id your_named-experiement
+python main.py --env walker-walk --action-repeat 2 --id your_named_experiment
 ```
 
 Some useful commands:
 ```bash
-python main.py --algo dreamer --env walker-walk --action-repeat 2 --logic-overshooting-distance 10 --id your_named-experiement
+python main.py --env walker-walk --action-repeat 2 --logic-overshooting-distance 10 --id your_named_experiment
 ```
 
 ```bash
-python main.py --algo dreamer --env walker-walk --action-repeat 2 --planning-horizon 50 --id your_named-experiement
+python main.py --env walker-walk --action-repeat 2 --planning-horizon 50 --id your_named_experiment
 ```
 
 ```bash
-python main.py --algo dreamer --env walker-walk --action-repeat 2 --planning-horizon 50 --logic-overshooting-distance 50 --id your_named-experiement
+python main.py --env walker-walk --action-repeat 2 --planning-horizon 50 --logic-overshooting-distance 50 --id your_named_experiment
 ```
 
 ## :rainbow: Evaluation
@@ -69,4 +69,3 @@ High Data Efficiency and Robust Planning Over Extended Horizon Size:
 !["Data Efficiency"](Figure/ES4.png)
 !["Data Efficiency"](Figure/EPS4.png)
 !["Robust Planning Over Extended Horizon Size"](Figure/HS8.png)
-
