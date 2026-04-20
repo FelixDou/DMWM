@@ -494,7 +494,7 @@ class NLR(nn.Module):
         true_matrix = self.true.unsqueeze(0).expand(constraint.size())
 
         false = self.logic_not(self.true)
-        false_matrix = self.true.unsqueeze(0).expand(constraint.size())
+        false_matrix = false.unsqueeze(0).expand(constraint.size())
 
         # Regular
         r_length = constraint.norm(dim=2).mean()
@@ -548,6 +548,9 @@ class NLR(nn.Module):
         r_loss += r_length * self.r_length
 
         return r_loss
+
+    def logic_regularizer(self, constraint):
+        return self.logic_regular(constraint)
 
     def l2(self):
         l2_loss = 0.0
